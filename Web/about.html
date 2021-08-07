@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>김주안</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Song+Myung&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<style>
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0,0,0,0);
+        border: 0;
+    }
+</style>
+
+<script src="https://kit.fontawesome.com/f11fc21e60.js" crossorigin="anonymous"></script>
+</head>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+    $(function(){
+        $(".headC").click(function(){
+            $(".headB").slideToggle();
+        });
+    });
+</script>
+
+<body class="nohero">
+
+<header>
+    <div class="container">
+        <div class="container-small">
+            <a href="index.html" class="headA">
+                Scheduler
+             </a>
+
+            <botton type="button" class="headC">
+                <i class="fas fa-bars" title="MENU"></i>
+            </botton>
+        </div>
+
+        <nav class="headB">
+            <ul>
+                <li><a href="index.html">TOP</a></li>
+                <li><a href="contents.html">콘텐츠</a></li>
+                <li><a href="about.html">소개</a></li>
+                <li><a href="contact.html">문의</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<article class="post">
+    <div class="container">
+
+        <div class="bread">
+            <ol>
+                <li><a href="index.html">TOP</a></li>
+                <li><a href="about.html">소개</a></li>
+            </ol>
+        </div>
+        <h1>스케줄러는 무엇인가요?</h1>
+
+        <img src="img/zoom2.jpg" alt="">
+
+        <p>스케줄러는 줌 수업과 온라인 클래스 화상수업으로 이루어진 복잡한 원격수업 속에서도 늦지 않게 참여할 수 있게 당신을 도와줍니다.
+        스케줄러는 복잡한 줌 주소들과 자주 바뀌는 하루 시간표, 또 일주일 시간표가 깔끔하게 정리되어 있어 쉽고 빠르게 일정을 확인하고 수업에 참여할 수 있습니다.</p>
+
+        <p>또한, 이 스케줄러는 오직 9반 학생들만을 위해 디자인 되었습니다.
+        스케줄러의 모든 컨텐츠와 눈에 보이는 모든 것은 '최신 표준 HTML+CSS 디자인' 이라는 책을 참고해서 제작자가 손수 만들었습니다.
+        이 스케줄러가 당신에게 도움이 되길 바랍니다 :)</p>
+
+        <p>문제가 발견되었다면 맨 상단의 문의로 들어가거나 가장 처음 페이지의 도움말 및 제보로 들어가서 제보해 주세요</p>
+    </div>
+</article>
+
+<footer>
+    <div class="container">
+        <div class="footA">
+            <h2>Scheduler</h2>
+                <p>
+                    이메일:juane24th@gmail.com<br>
+                    <a href="http://scheduler.net/">
+                        http://scheduler.net
+                    </a>
+                </p>
+
+                <nav class="footD">
+                    <ul>
+                        <li><a href="#">
+                            <i class="fab fa-facebook" title="facebook"></i>
+                        </a></li>
+
+                        <li><a href="#">
+                            <i class="fab fa-google" title="google"></i>
+                        </a></li>
+
+                        <li><a href="#">
+                            <i class="fab fa-instagram" title="instagram"></i>
+                        </a></li>
+
+                        <li><a href="#">
+                            <i class="fab fa-youtube" title="youtube"></i>
+                        </a></li>
+
+                        <li><a href="#">
+                            <i class="fab fa-twitter" title="twitter"></i>
+                        </a></li>
+                    </ul>
+                </nav>
+        </div>
+    
+        <nav class="footB">
+            <div>
+                <h3>ABOUT</h3>
+                <ul>
+                    <li><a href="#">설립</a></li>
+                    <li><a href="#">주소</a></li>
+                    <li><a href="#">지도</a></li>
+                    <li><a href="#">스태프</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>SUPPORT</h3>
+                <ul>
+                    <li><a href="#">다운로드</a></li>
+                    <li><a href="#">도움말</a></li>
+                    <li><a href="#">자주 묻는 질문</a></li>
+                    <li><a href="#">문의</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>CONTENTS</h3>
+                <ul>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">비즈니스</a></li>
+                    <li><a href="#">프로필</a></li>
+                    <li><a href="#">개발자</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="footC">
+            © Scheduler corp. All rights reserved.
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>김주안</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Song+Myung&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<style>
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0,0,0,0);
+        border: 0;
+    }
+</style>
+
+<script src="https://kit.fontawesome.com/f11fc21e60.js" crossorigin="anonymous"></script>
+</head>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+    $(function(){
+        $(".headC").click(function(){
+            $(".headB").slideToggle();
+        });
+    });
+</script>
+
+<body>
+
+<header>
+    <div class="container">
+        <div class="container-small">
+            <a href="index.html" class="headA">
+                Scheduler
+             </a>
+
+            <botton type="button" class="headC">
+                <i class="fas fa-bars" title="MENU"></i>
+            </botton>
+        </div>
+
+        <nav class="headB">
+            <ul>
+                <li><a href="index.html">TOP</a></li>
+                <li><a href="contents.html">콘텐츠</a></li>
+                <li><a href="about.html">소개</a></li>
+                <li><a href="contact.html">문의</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="conA">
+<div class="container">
+        <h1>Scheduler</h1>
+        <p>빠르게 보는 우리반 원격수업 시간표</p>
+</div>
+</section>
+
+<section class="conB">
+<div class="container">
+
+    <div class="text">
+        <i class="far fa-calendar-alt icon"></i>
+        <h2>우리반 시간표 확인하기</h2>
+        <p>우리반의 일주일 시간표를 미리 확인하세요</p>
+        <a href="week.html">바로가기
+            <i class="fas fa-angle-right"></i>
+        </a>
+    </div>
+
+    <div class="text">
+        <i class="fab fa-internet-explorer icon"></i>
+        <h2>줌 주소 확인하기</h2>
+        <p>우리반 모든 과목의 줌 수업에 빠르게 들어가세요</p>
+        <a href="zoom.html">바로가기
+            <i class="fas fa-angle-right"></i>
+        </a>
+    </div>
+
+    <div class="text">
+        <i class="fas fa-calendar-check icon"></i>
+        <h2>오늘의 일정 확인하기</h2>
+        <p>매일 업데이트되는 오늘의 일정을 확인하세요</p>
+        <a href="schedule.html">바로가기
+            <i class="fas fa-angle-right"></i>
+        </a>
+    </div>
+
+</div>
+</section>
+
+<section class="conC">
+    <div class="container">
+        <div class="photo"></div>
+        <div class="text">
+            <h2>
+                스케줄러는 쉽고 편리합니다
+            </h2>
+            <p>
+                이 학생이 만든 스케줄러는 누구나 보기 쉽게 만들어져 복잡한 비대면 수업에서도 늦지 않고 참여할 수 있게 도웁니다
+            </p>
+            <a href="about.html">
+                더 알아보기
+                <i class="fas fa-angle-right"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="conD">
+    <div class="container">
+        <div class="photo"></div>
+        <div class="text">
+            <h2>
+                스케줄러 사용에 문제가 있나요?
+            </h2>
+            <p>
+                스케줄러에서 예기치 않은 문제가 발생하거나 고쳐야 할 문제가 있다면 도움말을 읽어보거나 제보해 주세요
+            </p>
+            <a href="contact.html">
+                더 알아보기
+                <i class="fas fa-angle-right"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footA">
+            <h2>Scheduler</h2>
+                <p>
+                    이메일:juane24th@gmail.com<br>
+                    <a href="http://scheduler.net/">
+                        http://scheduler.net
+                    </a>
+                </p>
+
+                <nav class="footD">
+                    <ul>
+                        <li><a href="#">
+                            <i class="fab fa-facebook" title="facebook"></i>
+                        </a></li>
+
+                        <li><a href="#">
+                            <i class="fab fa-google" title="google"></i>
+                        </a></li>
+
+                        <li><a href="#">
+                            <i class="fab fa-instagram" title="instagram"></i>
+                        </a></li>
+
+                        <li><a href="#">
+                            <i class="fab fa-youtube" title="youtube"></i>
+                        </a></li>
+
+                        <li><a href="#">
+                            <i class="fab fa-twitter" title="twitter"></i>
+                        </a></li>
+                    </ul>
+                </nav>
+        </div>
+    
+        <nav class="footB">
+            <div>
+                <h3>ABOUT</h3>
+                <ul>
+                    <li><a href="#">설립</a></li>
+                    <li><a href="#">주소</a></li>
+                    <li><a href="#">지도</a></li>
+                    <li><a href="#">스태프</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>SUPPORT</h3>
+                <ul>
+                    <li><a href="#">다운로드</a></li>
+                    <li><a href="#">도움말</a></li>
+                    <li><a href="#">자주 묻는 질문</a></li>
+                    <li><a href="#">문의</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>CONTENTS</h3>
+                <ul>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">비즈니스</a></li>
+                    <li><a href="#">프로필</a></li>
+                    <li><a href="#">개발자</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="footC">
+            © Scheduler corp. All rights reserved.
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
